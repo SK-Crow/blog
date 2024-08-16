@@ -1,0 +1,93 @@
+---
+title: 'Sitekick Remastered'
+date: '2024-03-09'
+tags: ['sitekick', 'gaming', 'projects']
+draft: false
+summary: Sitekick, a game by YTV & Corus Entertainment for YTV.com, debuted in 2003 and was discontinued in 2015. The Sitekick Remastered initiative seeks to conserve its legacy while enhancing the original game.
+---
+
+## What is Sitekick?
+
+Sitekick was a game developed by YTV & Corus Entertainment for YTV.com. It debuted in 2003 and was discontinued in 2015. A Sitekick specifically is a cartoony robot that can be dressed up with things called 'chips' (think virtual POGs).
+
+| ![Sitekick](/static/images/sitekick/sitekick2.png) |
+|:--:| 
+| *A screenshot of the original webpage* |
+
+The very first online game that I played as a child was Sitekick.  I remember waking up on Saturday mornings, booting up our old Windows 2000 machine, and loading up YTV.com to play Sitekick. I stopped playing it around the time that I entered hischool, and the game was discontinued when I was in college.
+
+Every few years after the shutdown I would Google "Sitekick" to see if it was back or not.  Occasional Reddit posts would pop up talking about the nostalgia for these little robots, but nobody had taken the initiative to remake the game, and it had become clear that Corus / YTV didn't see a financial incentive to remake a 2003 Flash game.
+
+## Sitekick Remastered
+| ![Sitekick](/static/images/sitekick/poster.png) |
+|:--:| 
+| *Sitekick Remastered's promotional poster* |
+
+I came to the realization that nobody was going to remake the game, so in July 2019 I purchased [Sitekickremastered.com](https://sitekickremastered.com/), created a Discord server, posted to Reddit, and started to remake Sitekick in Unity.
+
+To my surprise, [Archive.org](https://web.archive.org/web/*/ytv.com/*) had maybe 80% of all of the game files backed up!  Since the game was built in Flash, I was able to decompile the game, and export the game's art at any resolution I wanted to, without losing any quality.
+
+The first few versions of the game were abhorrent, but they got the interest of actual Unity developers and players of the original game.
+
+| ![Sitekick](/static/images/sitekick/sidekick1.png) |
+|:--:| 
+| *The original build was super janky, held together with duct-tape and weapons-grade autism* |
+
+| ![Sitekick](/static/images/sitekick/sidekick2.png) |
+|:--:| 
+| *The current beta build has been cleaned up significantly* |
+
+## What do I do?
+With over 1,600 members at the time of writing, and 60+ daily players, I'm proud to see how far the game has come, and am more than happy to boast about my involvement in Sitekick Reamstered.
+
+Aside from owning the domain, I play a significant role in the game's success.  Some of my responsibilities include:
+
+- Managing the website
+- Player support
+- Pushing game client updates to Google Play, Xbox, and the Microsoft Store
+- Game server updates
+- Github organization & task management
+
+On top of that, I actually host each of the following from one of my servers:
+
+- Our Discord Bots (Authicer, Kablooey, Paul, SitePic)
+- Production gameserver
+- Dev gameserver
+- Loadbalanccer (KEMP Loadmaster)
+- Game database (MySQL Server)
+- Live server status page (Uptime Kuma)
+
+## Repositories
+On November 19, 2023 the team and I started to open source our project.  This includes all of our discord bots, the website, wiki, and our art repository.  We're intending to open source the game's server, and parts of the game.  We're intentionally keeping parts of it private to prevent new content from leaking early.
+
+#### Art
+The game's primary public repository. Anyone can submit art and animations for the game from this repository.
+
+#### Home
+Our homepage is hosted on Github Pages via mkdocs.  We're able to host a complete wiki and homepage at no cost, and anyone is able too contribute.  When pull requests are approved, changes are live within minutes.
+
+#### Authicer
+Authicer is one of our Sitekicks - one of our Discord bots.  Authicer is a bot that manages linking player accounts with Discord.  We use this to authenticate players and ensure that players are who they say they are.  If a player's name matches their in-game name and they're in the Verified role, players know without a doubt that they're real.
+
+#### Kablooey
+Kablooey is our bot with the most features. We stole the name from Sitekick's original story games 'The Sitekick Saga', but she's certainly much more useful today.  We use Kablooey to manage support tickets, post announcements, link Discord nitro boosters to the game server, track and update live game metrics on Discord, and assign players to a Discord role based on their in-game level.
+
+#### Paul
+Paul is more of a joke than a useful bot.  We were originally intending for Paul to be a bot to manage polling, but there were too many issues with handling accurate polls on Discord, so we turned him into a forced meme.  Paul monitors every single message on the server.  If someone sends a message that contains *paul* in any portion of the message, Paul will respond with "Paul", and nothing else.  He's a little brain-dead, but we love him just as much as the others.  Players have taken a liking to Paul, and regularly try to initiate conversation with him.  
+![Paul](/static/images/sitekick/paul.png)
+
+
+#### SitePic
+Kablooey has the most features, but SitePic is hands-down the coolest bot we have.  SitePic can be messaged directly to generate a custom Sitekick avatar.  Players who set their avatar to a Sitekick regularly report being recognized by old Sitekick players who haven't heard of the Sitekick Remastered project.  
+
+We've somehow managed to turn a cool avatar into a walking billboard for our game.
+![SitePic](/static/images/sitekick/sitepic.png)
+
+#### Game
+Currently an empty repository.  We need to work on splitting some parts of the game into this repository so anyone can contribute code without our private repo.  Currently, the only game contributions we accept are in the Art repository.
+
+#### .github
+Contains the README.md for our Github Organization.
+
+## Conclusion
+While there's a lot of work left to do - the game is in a surprisingly great state, and growing faster than we thought it ever would.  We see from 1-10 new players daily, and an good chunk of them come online regularly.
