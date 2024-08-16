@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Sitekick Remastered',
+    description: `Sitekick, a game by YTV & Corus Entertainment for YTV.com, debuted in 2003 and was discontinued in 2015. The Sitekick Remastered initiative seeks to conserve its legacy while enhancing the original game.`,
+    imgSrc: '/static/images/sitekick.png',
+    href: '/blog/sitekick-remastered',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Placeholder',
+    description: `Placeholder`,
+    imgSrc: '',
+    href: 'Placeholder',
   },
 ]
 
